@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-11T16:12:34.646Z" agent="5.0 (Windows)" etag="Ody0PrES2klkXaKKZqIp" version="17.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-11T16:20:36.103Z" agent="5.0 (Windows)" etag="reVhgp6FgLB-OLWfGnkv" version="17.4.2" type="github">
   <diagram id="6AN_cO40GWESGTeyeJxN" name="Page-1">
-    <mxGraphModel dx="782" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1203" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -134,6 +134,9 @@
               <mxPoint x="125" y="464" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7ud-lGu6QX58xXRVe8F9-47" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;El siguiente esquema de diagrama uml considera los siguientes casos, cada empleado de la escuela (director,profesor,etc) extiende de la clase abstracta empleado. La clase abstacta empleado implementa la interfaz persona, para compartir metodos y variables en comun con los estudiantes, ya que estos no son empleados y estaria mal que los agrupe ahi.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Despues cada maestro puede tener muchas materias, y cada materia es dada por un profesor (esto podria ser una relacion muchos a muchos), pero como dsp utilizo ese mismo concepto, preferi dejarlo como que cada materia es dada por un profesor.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Por ultimo en cada clase hay muchos alumnos y se pueden dar muchas materias.&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="10" width="350" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
