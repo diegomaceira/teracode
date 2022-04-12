@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T18:42:48.405Z" agent="5.0 (Windows)" etag="H0X58foJXjQMSGDKCXz_" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-12T18:50:29.195Z" agent="5.0 (Windows)" etag="Uh1k6u1jDN0Eg9we4CkJ" version="17.4.3" type="github">
   <diagram id="axB0tvixqJlDSB1nHbte" name="Page-1">
-    <mxGraphModel dx="745" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1955" dy="1050" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -254,7 +254,7 @@
         <mxCell id="zDprbDjapaQS7rtPQA_h-69" value="Punto C" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1480" y="720" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zDprbDjapaQS7rtPQA_h-71" value="&lt;h1&gt;Validaciones&lt;/h1&gt;&lt;p&gt;Aplicacion conference room:&lt;/p&gt;&lt;p&gt;-El usuario debe completar todos los datos antes de presionar el boton guardar. Excepto la cantidad de participantes, esto porque podria ser que la reunion sea entre la persona que esta reservando la sala y un usuario externo.&lt;br&gt;&lt;/p&gt;&lt;p&gt;-Si el usuario selecciono el cuarto,una fecha, hora desde y hora hasta&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zDprbDjapaQS7rtPQA_h-71" value="&lt;h1&gt;Validaciones&lt;/h1&gt;&lt;p&gt;Aplicacion conference room:&lt;/p&gt;&lt;p&gt;-El usuario debe completar todos los datos antes de presionar el boton guardar. Excepto la cantidad de participantes, esto porque podria ser que la reunion sea entre la persona que esta reservando la sala y un usuario externo a la compañia.&lt;br&gt;&lt;/p&gt;&lt;p&gt;-Si el usuario selecciono la sala,la fecha,la hora desde y la hora hasta:&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;-se valida que esa misma sala no este reservada por algun otro usuario en ese rango horario.En caso de que eso suceda, se muestra un mensaje con las horas de la reserva para que el usuario sepa como modificar su reserva y no se permite guardar hasta que la modifique.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;-si ademas agrego participantes, se informa de la disponibilidad de estos, aunque esta validacion no es restrictiva sino solo informativa, el usuario invitado podria tener solapada otra meeting, pero en ese caso deberia ser el quien decida que meeting es mas importante o quiza participar un rato de cada una.&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1480" y="770" width="770" height="510" as="geometry" />
         </mxCell>
       </root>
