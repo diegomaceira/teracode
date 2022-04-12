@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T18:30:55.468Z" agent="5.0 (Windows)" etag="L0qiOAm_rRbnQbs5cjEQ" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-12T18:34:15.326Z" agent="5.0 (Windows)" etag="XRvH2lufkLdF4KcqRO4U" version="17.4.3" type="github">
   <diagram id="axB0tvixqJlDSB1nHbte" name="Page-1">
     <mxGraphModel dx="1303" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -253,6 +253,9 @@
         </mxCell>
         <mxCell id="zDprbDjapaQS7rtPQA_h-69" value="Punto C" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1480" y="720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zDprbDjapaQS7rtPQA_h-71" value="&lt;h1&gt;Validaciones&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="770" width="770" height="510" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
