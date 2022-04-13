@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T20:32:36.136Z" agent="5.0 (Windows)" etag="PoDCId_r4LbSLmZaAud2" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T13:18:36.348Z" agent="5.0 (Windows)" etag="C3HYKrPUVF2DjUNPFjhB" version="17.4.3" type="github">
   <diagram id="6AN_cO40GWESGTeyeJxN" name="Page-1">
-    <mxGraphModel dx="823" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="978" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7ud-lGu6QX58xXRVe8F9-2" value="Abstract Employee" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="1030" y="100" width="160" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="T2WbsQWFZTyGbIiBS1EN-1" value="+ id: int&lt;br style=&quot;font-size: 12px;&quot;&gt;+ name: String&lt;br style=&quot;font-size: 12px;&quot;&gt;+ lastname: String" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="7ud-lGu6QX58xXRVe8F9-2">
+        <mxCell id="T2WbsQWFZTyGbIiBS1EN-1" value="+ id: int&lt;br style=&quot;font-size: 12px;&quot;&gt;+ name: String&lt;br style=&quot;font-size: 12px;&quot;&gt;+ lastname: String" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="7ud-lGu6QX58xXRVe8F9-2" vertex="1">
           <mxGeometry y="26" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7ud-lGu6QX58xXRVe8F9-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="7ud-lGu6QX58xXRVe8F9-2" vertex="1">
@@ -132,8 +132,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7ud-lGu6QX58xXRVe8F9-47" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;El siguiente esquema de diagrama uml considera los siguientes casos, cada empleado de la escuela (director,profesor,profesor,etc) extiende de la clase abstracta empleado. La clase abstacta empleado implementa la interfaz persona, para compartir metodos y variables en comun con los estudiantes, ya que estos no son empleados y estaria mal que los agrupe ahi, pero tienen cosas en comun.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Despues cada maestro puede tener muchas materias, y cada materia es dada por un profesor (esto podria ser una relacion muchos a muchos), pero como dsp utilizo ese mismo concepto, preferi dejarlo como que cada materia es dada por un profesor.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Por ultimo en cada clase hay muchos alumnos y se pueden dar muchas materias.&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="80" width="380" height="240" as="geometry" />
+        <mxCell id="7ud-lGu6QX58xXRVe8F9-47" value="&lt;div&gt;&lt;h1&gt;Nota&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;El siguiente esquema de diagrama uml considera los siguientes casos, cada empleado de la escuela (director,conserje,profesor,etc) extiende de la clase abstracta empleado. La clase abstacta empleado implementa la interfaz persona, para compartir metodos y variables en comun con los estudiantes, ya que estos no son empleados y estaria mal que los agrupe ahi, pero tienen cosas en comun, como por ejemplo ambos tiene primer nombre y apellido.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Despues cada profesor da una materia y una materia puede ser dada por varios profesores.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Por ultimo la relacion entre estudiantes y materias es de muchos a muchos, ya que muchos estudiantes tienen muchas materias.&lt;/div&gt;&lt;div&gt;Para eso se utiliza la clase para saber como estan relacionados ambos.&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="40" width="380" height="300" as="geometry" />
         </mxCell>
         <mxCell id="7ud-lGu6QX58xXRVe8F9-48" value="Punto A" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontSize=24;" parent="1" vertex="1">
           <mxGeometry x="570" y="40" width="100" height="60" as="geometry" />
@@ -460,6 +460,9 @@
         </mxCell>
         <mxCell id="Bw8eh1MeyxifhjFH8s13-97" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="Bw8eh1MeyxifhjFH8s13-96" vertex="1">
           <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="eGTxG9JXPeuAPU_-5jeY-1" value="&lt;h1&gt;Nota&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1720" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
