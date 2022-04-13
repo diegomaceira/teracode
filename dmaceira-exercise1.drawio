@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T13:52:12.177Z" agent="5.0 (Windows)" etag="kgo-VSGQRtLUBDTIneq-" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T13:52:53.050Z" agent="5.0 (Windows)" etag="fre_OUvC7NqaQ3QpylzF" version="17.4.3" type="github">
   <diagram id="6AN_cO40GWESGTeyeJxN" name="Page-1">
-    <mxGraphModel dx="1203" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1117" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -479,25 +479,25 @@
         <mxCell id="eGTxG9JXPeuAPU_-5jeY-43" value="Punto E" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="1040" y="1380" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eGTxG9JXPeuAPU_-5jeY-44" value="&lt;h1&gt;Nota&lt;/h1&gt;&lt;p&gt;La query del punto E es lenta porque utiliza dos inner join, estas operaciones son mas costosas para la base de datos, en el esquema que defini en el punto anterior al no tener una tabla por cada empleado y teniendo una sola para todos, solo se precisaria hacer un select para obtener el nombre del conserje.&lt;/p&gt;&lt;p&gt;Esto se podria realizar haciendo un select de la tabla empleado donde el tipo de empleado se corresponda con el id del conserje. &lt;br&gt;&lt;/p&gt;&lt;p&gt;Esto tambien responda los pros y los contras del punto anterior. Donde en un ambiente en el cual las tablas se encuentran duplicadas el costo operativo es mas alto que en un entorno normalizado.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="eGTxG9JXPeuAPU_-5jeY-44" value="&lt;h1&gt;Nota&lt;/h1&gt;&lt;p&gt;La query del punto E es lenta porque utiliza dos inner join, estas operaciones son mas costosas para la base de datos, en el esquema que defini en el punto anterior al no tener una tabla por cada empleado y teniendo una sola para todos, solo se precisaria hacer un select para obtener el nombre del conserje.&lt;/p&gt;&lt;p&gt;Esto se podria realizar haciendo un select de la tabla empleado donde el tipo de empleado se corresponda con el id del conserje. &lt;br&gt;&lt;/p&gt;&lt;p&gt;Esto tambien responda los pros y los contras del punto anterior. Donde en un ambiente en el cual las tablas se encuentran duplicadas el costo operativo es mas alto que en un entorno normalizado.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;gradientColor=#7ea6e0;" vertex="1" parent="1">
           <mxGeometry x="1160" y="1380" width="360" height="260" as="geometry" />
         </mxCell>
         <mxCell id="eGTxG9JXPeuAPU_-5jeY-45" value="Punto F" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="1550" y="1380" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eGTxG9JXPeuAPU_-5jeY-46" value="&lt;h1&gt;Nota&lt;/h1&gt;&lt;p&gt;En este punto no estoy tan seguro de la respuesta, pero creo que la solucion podria venir por utilizar una vista.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="eGTxG9JXPeuAPU_-5jeY-46" value="&lt;h1&gt;Nota&lt;/h1&gt;&lt;p&gt;En este punto no estoy tan seguro de la respuesta, pero creo que la solucion podria venir por utilizar una vista.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;gradientColor=#ea6b66;" vertex="1" parent="1">
           <mxGeometry x="1670" y="1380" width="360" height="90" as="geometry" />
         </mxCell>
         <mxCell id="eGTxG9JXPeuAPU_-5jeY-47" value="Punto G" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="1040" y="1680" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eGTxG9JXPeuAPU_-5jeY-48" value="&lt;h1&gt;Nota&lt;/h1&gt;&lt;p&gt;asd&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="eGTxG9JXPeuAPU_-5jeY-48" value="&lt;h1&gt;Nota&lt;/h1&gt;&lt;p&gt;asd&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;gradientColor=#97d077;" vertex="1" parent="1">
           <mxGeometry x="1160" y="1680" width="360" height="260" as="geometry" />
         </mxCell>
         <mxCell id="eGTxG9JXPeuAPU_-5jeY-49" value="Punto H" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="1550" y="1680" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eGTxG9JXPeuAPU_-5jeY-50" value="&lt;h1&gt;Nota&lt;/h1&gt;&lt;p&gt;La que.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="eGTxG9JXPeuAPU_-5jeY-50" value="&lt;h1&gt;Nota&lt;/h1&gt;&lt;p&gt;La que.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#996185;fillColor=#e6d0de;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;gradientColor=#d5739d;" vertex="1" parent="1">
           <mxGeometry x="1670" y="1680" width="360" height="260" as="geometry" />
         </mxCell>
         <mxCell id="eGTxG9JXPeuAPU_-5jeY-51" value="fecha_nacimiento" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
