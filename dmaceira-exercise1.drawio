@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T13:37:53.803Z" agent="5.0 (Windows)" etag="bc8eDuQlsYj_RXLzfJnK" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T13:40:51.753Z" agent="5.0 (Windows)" etag="c4CcS2FXkBvJ2wPJL9HP" version="17.4.3" type="github">
   <diagram id="6AN_cO40GWESGTeyeJxN" name="Page-1">
-    <mxGraphModel dx="1303" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -475,6 +475,9 @@
           <mxGeometry x="410" y="1920" width="120" height="30" as="geometry">
             <mxRectangle width="120" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="eGTxG9JXPeuAPU_-5jeY-43" value="Punto E" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1380" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
