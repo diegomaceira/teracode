@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T13:48:24.777Z" agent="5.0 (Windows)" etag="zDycsLzmDGKHhycRNppN" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T13:49:13.086Z" agent="5.0 (Windows)" etag="L2x2bwR4Yp1VrI3OYeRY" version="17.4.3" type="github">
   <diagram id="6AN_cO40GWESGTeyeJxN" name="Page-1">
     <mxGraphModel dx="920" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -485,8 +485,8 @@
         <mxCell id="eGTxG9JXPeuAPU_-5jeY-45" value="Punto F" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="1550" y="1380" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eGTxG9JXPeuAPU_-5jeY-46" value="&lt;h1&gt;Nota&lt;/h1&gt;&lt;p&gt;La qo.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1670" y="1380" width="360" height="260" as="geometry" />
+        <mxCell id="eGTxG9JXPeuAPU_-5jeY-46" value="&lt;h1&gt;Nota&lt;/h1&gt;&lt;p&gt;En este punto no estoy tan seguro de la respuesta, pero creo que la solucion podria venir por utilizar una vista.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="1380" width="360" height="90" as="geometry" />
         </mxCell>
         <mxCell id="eGTxG9JXPeuAPU_-5jeY-47" value="Punto G" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="1040" y="1680" width="100" height="60" as="geometry" />
