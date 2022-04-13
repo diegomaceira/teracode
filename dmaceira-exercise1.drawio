@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T13:40:51.753Z" agent="5.0 (Windows)" etag="c4CcS2FXkBvJ2wPJL9HP" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T13:47:08.764Z" agent="5.0 (Windows)" etag="s-1-kMC2SX42bG0xRNbt" version="17.4.3" type="github">
   <diagram id="6AN_cO40GWESGTeyeJxN" name="Page-1">
-    <mxGraphModel dx="652" dy="350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -478,6 +478,9 @@
         </mxCell>
         <mxCell id="eGTxG9JXPeuAPU_-5jeY-43" value="Punto E" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="1040" y="1380" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eGTxG9JXPeuAPU_-5jeY-44" value="&lt;h1&gt;Nota&lt;/h1&gt;&lt;p&gt;La query del punto E es lenta porque utiliza dos inner join, estas operaciones son mas costosas para la base de datos, en el esquema que defini en el punto anterior al no tener una tabla por cada empleado y teniendo una sola para todos, solo se precisaria hacer un select para obtener el nombre del conserje.&lt;/p&gt;&lt;p&gt;Esto se podria realizar haciendo un select de la tabla empleado donde el tipo de empleado se corresponda con el id del conserje. &lt;br&gt;&lt;/p&gt;&lt;p&gt;Esto tambien responda los pros y los contras del punto anterior. Donde en un ambiente en el cual las tablas se encuentran duplicadas el costo operativo es mas alto que en un entorno normalizado.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="1380" width="360" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
