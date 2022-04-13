@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T13:36:22.934Z" agent="5.0 (Windows)" etag="0BT5Rc0CbIB_dW59L-EJ" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T13:37:53.803Z" agent="5.0 (Windows)" etag="bc8eDuQlsYj_RXLzfJnK" version="17.4.3" type="github">
   <diagram id="6AN_cO40GWESGTeyeJxN" name="Page-1">
-    <mxGraphModel dx="920" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1303" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -407,7 +407,7 @@
           <mxGeometry y="26" width="160" height="44" as="geometry" />
         </mxCell>
         <mxCell id="eGTxG9JXPeuAPU_-5jeY-1" value="&lt;h1&gt;Nota&lt;/h1&gt;&lt;p&gt;La relacion empleado materia es 1 o 0 porque solo lo empleados con categoria profesor son aquellos que van a tener una materia asociada.&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="1640" width="300" height="120" as="geometry" />
+          <mxGeometry x="600" y="1640" width="300" height="100" as="geometry" />
         </mxCell>
         <mxCell id="eGTxG9JXPeuAPU_-5jeY-5" value="Empleado" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="350" y="1770" width="180" height="180" as="geometry" />
